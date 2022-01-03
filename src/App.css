@@ -1,0 +1,164 @@
+.imageContainer {
+  width: 100%!important;
+  height: 440px!important;
+  background-size: auto 110%;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+.TopInfo{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  z-index: 1000;
+}
+.Name{
+  display: inline-block;
+  width: auto!important;
+  margin-right: 10px!important;;
+}
+.CostumStyleL{
+  background: transparent!important;
+  border-radius: 0px!important;
+  border-right: none!important;;
+}
+.CostumStyleR{
+  background: transparent!important;
+  border-radius: 0px!important;
+  border-left: none!important;
+  
+}
+.CostumStyleR:focus{
+ box-shadow: none!important;
+ border-color: #1a1919!important;
+}
+.CostumButton{
+  cursor: pointer;
+}
+.CostumStyle{
+  background: transparent!important;
+  border-radius: 0px!important;
+
+  
+}
+.CostumStyle:focus{
+ box-shadow: none!important;
+ border-color: #1a1919!important;
+}
+.react-slidedown.MySlideDown {
+  transition-duration: .1s;
+
+}
+body {
+  background: #faf8f5!important;
+}
+.Background{
+  background: #faf8f5!important;
+}
+.Footer{
+  background: #F2EEE9;
+}
+.SuisseInt{
+   font-family: 'SuisseIntl';
+}
+.SuisseIntM{
+  font-family: 'SuisseIntlM';
+}
+.SuisseIntB{
+  font-family: 'SuisseIntlB';
+}
+.Micro{
+  color: #1a1a1a40;
+  font-size: 13px;
+}
+.FSize14{
+
+  font-size: 14px;
+}
+.Helvetica{
+  font-family: 'HelveticaLTPro';
+}
+.IconPoneMail{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.Squere{
+background: #FAF8F5;
+width: 30px;
+height: 30px;
+position: absolute;
+border-radius: 50%;
+top:0;
+bottom: 0;
+right: 0;
+left: 0;
+margin: auto;
+}
+.IconArrowUP{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+}
+.Squere2{
+background: #FAF8F5;
+width: 30px;
+height: 30px;
+position: absolute;
+border-radius: 50%;
+top:0;
+bottom: 0;
+right: 0;
+
+margin: auto;
+}
+#contact{
+  background:  linear-gradient(to top,#faf8f5 25%, #faf8f500),
+               url(img/bg1.png) no-repeat; /* fallback */
+  background-size: 100% auto;
+}
+#CostumButton2{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 33px;
+  width: 40%;
+  
+}
+@media screen and (min-width: 1200px) {
+  .Icons{
+    position: absolute;
+    width: 100%;
+    bottom: 17%;
+    right: 0;
+  }
+}
+@media screen  and (min-width: 768px) and (max-width: 1400px){
+  #contact{
+    background:  linear-gradient(to top,#faf8f5, #faf8f500),
+                 url(img/bg2.png) no-repeat; /* fallback */
+    background-size: 100% auto;
+  }
+}
+@media screen  and (max-width: 768px){
+  #contact{
+    background:  linear-gradient(to top,#faf8f5, #faf8f500),
+                 url(img/bg3.png) no-repeat; /* fallback */
+    background-size: 100% auto;
+  }
+  #CostumButton2{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 33px;
+    width: 100%;
+    
+  }
+}

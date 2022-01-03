@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'SuisseIntl';
+  font-weight: 400;
+  font-style: normal;
+  src: url('SuisseIntl.woff2');
+}
+
+@font-face {
+  font-family: 'SuisseIntlM';
+  font-weight: 500;
+  font-style: normal;
+  src: url('SuisseIntl-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'SuisseIntlB';
+  font-weight: 700;
+  font-style: normal;
+  src: url('SuisseIntl-Bold.woff2');
+}
+
+@font-face {
+  font-family: 'HelveticaLTPro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('HelveticaLTPro-LightCond.woff2');
+}
